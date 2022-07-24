@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Mdbootstrap</title>
+  <link rel="icon" href="./img/lg.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./css/jquery-ui.css">
+  <link rel="stylesheet" href="./icons/icons.css">
+  <link rel="stylesheet" href="./css/mdb.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<header>
+
+  <div class="header_alert">
+    <div class="successfully-saved">
+      Product added successfully
+    </div>
+  </div>
+
+  <div class="header_alert">
+    <div class="successfully-removed">
+      Product removed successfully
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar py-0">
+
+    <a href="./index.html" class="navbar-brand">
+      <img src="./img/lg.jpg" class="logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" 
+      data-toggle="collapse" data-target="#BasicNavbar" 
+      aria-controls="BasicNavbar" aria-expanded="False" 
+      aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="BasicNavbar">
+
+      <div class="mb-2 my-lg-0 mr-auto d-flex">
+
+        <div class="nav-item dropdown pt-1 pr-2">
+          <a href="#0" class="nav-link ml-lg-2 p-0" id="navbarDropdown" 
+            role="button" data-toggle="dropdown" 
+            aria-haspopup="true" aria-expanded="false">
+            Laptop's
+          </a>
+          <div class="dropdown-menu dropdown-menu-left overflow-hidden" 
+            aria-labelledby="navbarDropdown">
+            <a href="https://t.me/+L_4Q3Fw3jYY3OTcy" class="dropdown-item">
+              Lenovo
+            </a>
+            <a href="#0" class="dropdown-item">
+              Asus
+            </a>
+            <a href="#0" class="dropdown-item">
+              Acer
+            </a>
+            <a href="#0" class="dropdown-item">
+              Hp
+            </a>
+          </div>
+        </div>
+
+        <div class="nav-item dropdown pt-1">
+          <a href="#0" class="nav-link ml-lg-2 p-0" id="navbarDropdown" 
+            role="button" data-toggle="dropdown" 
+            aria-haspopup="true" aria-expanded="false">
+            Mobile
+          </a>
+          <div class="dropdown-menu dropdown-menu-left overflow-hidden" 
+            aria-labelledby="navbarDropdown">
+            <a href="#0" class="dropdown-item">
+              Samsung
+            </a>
+            <a href="#0" class="dropdown-item">
+              Huawei
+            </a>
+            <a href="#0" class="dropdown-item">
+              Sony
+            </a>
+            <a href="#0" class="dropdown-item">
+              Htc
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <form class="form-inline my-2 my-lg-0">
+        <input id="tags" type="search" placeholder="Search" class="form-control search_input">
+      </form>
+
+      <div class="mb-2 my-lg-0">
+        <div class="nav-item dropdown">
+          <a href="#0" class="nav-link ml-lg-2 p-0" id="navbarDropdown" 
+            role="button" data-toggle="dropdown" 
+            aria-haspopup="true" aria-expanded="false">
+            <img src="./img/user.png" class="user_img_icon">
+            <div class="is_on"></div>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right overflow-hidden" 
+            aria-labelledby="navbarDropdown">
+            <a href="#0" class="dropdown-item">
+              Sign-in
+            </a>
+            <a href="#0" class="dropdown-item">
+              Sign-up
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </nav>
+
+   <div id="NavBack" class="view waves-effect waves-light">
+     <div class="mask rgba-black-strong">
+       <div class="container-fluid d-flex align-items-center 
+        justify-content-start h-100">
+         <div class="m-auto">
+
+          <div class="h3 col-md-6 text-light">
+            <div class="text-uppercase mb-4">
+              Create a website you're proud of
+            </div>
+            <div class="text-muted h5 mb-4">
+              Discover the platform that gives you the 
+              freedom to create, design, manage and develop 
+              your web presence exactly the way you want.
+            </div>
+          </div>
+
+          <div class="px-2">
+            <button class="btn btn-md header_btn">
+              Sign-in
+            </button>
+            <button class="btn btn-md header_btn">
+              Sign-up
+            </button>
+          </div>
+
+         </div>
+       </div>
+     </div>
+   </div>
+</header>
+
+<main>
+  <h4 class="category_price">Zo'r narx</h4>
+
+    <section id="owl-1">
+      <div class="owl-carousel owl-theme">
+
+          <div class="card_header">
+            <span class="best_price">
+              Zo'r narx
+            </span>
+            <a href="#0" class="waves-effect waves-light text-center w-100 pt-4">
+              <img src="./img/ph.jpg" class="product_img" alt="smart">
+            </a>
+            <div class="px-3">
+              <div class="d-flex justify-content-between">
+                <div class="text-dark small pt-3">Смартфон Samsung Galaxy A52 4/128Gb White</div>
+              </div>
+              <div class="text-dark font-weight-bold pt-4 pb-2 h5">33 10 000 so'm</div>
+              <div class="d-flex justify-content-between">
+
+                <span class="icon_header" onClick='handleDropDown()'>
+                  <i class="fi-sr-shopping-cart-add"></i>
+                </span>
+
+                <div id="languages" class="is-hidden-initially">
+                  <div class="number">
+                    <span class="minus cart_rem">&#8722;</span>
+                    <input class="cart_input" type="text" value="1"/>
+                    <span class="plus cart_add">+</span>
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <span class="plus cart_add">+</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+</main>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/owl.carousel.min.js"></script>
+<script src="./js/mdb.min.js"></script>
+<script src="./js/jquery-ui.js"></script>
+<script src="./js/main.js"></script>
+
+</body>
+</html>
